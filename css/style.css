@@ -1833,8 +1833,6 @@ button:focus{
 }
 .checkbox-group label .check:before{
     display:block;
-    content:url(data:image/svg+xml;
-    base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxNiAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEgNS4xNjY2N0w2LjM4NDYyIDExTDE1IDEiIHN0cm9rZT0iIzMzMzMzMyIgc3Ryb2tlLXdpZHRoPSIxLjYiLz4KPC9zdmc+Cg==);
     position:relative;
     left:4px;
     top:5px
@@ -1904,10 +1902,10 @@ html.ie:not(.edge) .checkbox-group label .check{
 .h-info01 .fe-item [class^=icon-]{
     color:var(--default_color);
     display:inline-block;
-    margin-right:11px;
+    margin-right:7px;
     font-size:16px;
     position:relative;
-    top:1px
+    top:2px
 }
 .h-info02{
     display:flex;
@@ -6343,6 +6341,7 @@ form{
         margin-top:20px
     }
     .fe-logo{
+
     }
     .fe-logo .fe-icon{
         top:4px
@@ -9591,7 +9590,7 @@ width: 647px;
 }
 @media (min-width: 790px) {
 .fe-back-to-top.pt-show {
-bottom: 50px;
+bottom: 30px;
 }
 }
 @media (min-width: 1025px) {
